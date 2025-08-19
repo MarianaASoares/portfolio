@@ -126,7 +126,7 @@ h2{
 
 .text-about {
     font-size: 1.3em;
-    text-align: left;
+    text-align: center;
 }
 
 .section-technology{
@@ -454,7 +454,6 @@ h2{
 
 .text-about {
     font-size: 1em;
-    text-align: justify;
 }
 
   .container-project{
@@ -521,7 +520,6 @@ h2{
 
 .text-about {
     font-size: 0.8em;
-    text-align: justify;
 }
 
 .logo-technology{
