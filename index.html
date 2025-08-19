@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfólio</title>
+</head>
+
+<body>
+    <header>
+        <nav class="container-menu">
+            <a class="menu" href="#home">Início</a>
+            <a class="menu" href="#about">Sobre</a>
+            <a class="menu" href="#technology">Tecnologias</a>
+            <a class="menu" href="#projects">Projetos</a>
+            <a class="menu" href="#contact">Contato</a>
+        </nav>
+    </header>
+
+    <section class="section-start" id="home">
+
+        <div class="container-texts-start">
+            <h1 class="title-main">Mariana Azevedo</h1>
+            <h2 class="subhead">Desenvolvedora Front-End</h2>
+        </div>
+
+        <div class="container-img-main">
+            <img src="assets/imagem-principal.png" alt="logo-portfólio" class="image-main">
+        </div>
+    </section>
+
+
+    <section class="section-about" id="about">
+        <h2 class="text-title">Sobre</h2>
+        <div class="container-text-about">
+            <p class="text-about">
+                //...Sou a Mariana, apaixonada por transformar ideias em experiências digitais envolventes.Tenho um
+                olhar atento para a criação de landing pages e sites institucionais modernos, sempre com foco em design
+                responsivo, navegação intuitiva e boa performance.
+            </p>
+        </div>
+    </section>
+
+    <section class="section-technology" id="technology">
+     
+        <h2 class="text-title-technology">Tecnologias</h2>
+        <div class="container-technology">
+            <img src="assets/logo-html.png" alt="logo-html" class="logo-technology">
+            <img src="assets/logo-css.png" alt="logo-css" class="logo-technology">
+            <img src="assets/logo-javascript.png" alt="logo-javascript" class="logo-technology">
+            <button onclick="replaceTechnology()" class="button-technology" >Ferramentas</button>
+        </div>
+    </section>
+
+    <section class="section-projects" id="projects">
+        <h2 class="text-title">Projetos</h2>
+
+        <ul class="container-project">
+            <li class="list-project">
+                <img src="assets/img-devsorteio.png" alt="Imagem Projeto Dev Sorteio" class="img-project">
+                <div class="box-description">
+                    <h3>Dev Sorteio</h3>
+                    <p>/...Aplicação Web que realiza o sorteio de números aleatórios entre dois valores definidos pelo
+                        usuário. Com design moderno, interface intuitiva e layout responsivo, o projeto foi desenvolvido
+                        com foco na usabilidade,oferecendo uma experiência fluida e acessível.</p>
+                </div>
+            </li>
+
+            <li class="list-project">
+                <img src="assets/img-página-encanadores.png" alt="Imagem Projeto Dev Sorteio" class="img-project">
+                <div class="box-description">
+                    <h3>Página Encanadores</h3>
+                    <p>/...Página Web focada em apresentar serviços de forma clara e acessível. Conta com menu
+                        interativo, botão para WhatsApp e formulário de contato.O design é moderno e responsivo,
+                        adaptando-se a diferentes dispositivos. Projeto focado na usabilidade e na melhor experiência do
+                        usuário.</p>
+                </div>
+            </li>
+
+            <li class="list-project">
+                <img src="assets/img-jogo.png" alt="Imagem Projeto Dev Sorteio" class="img-project">
+                <div class="box-description">
+                    <h3>Jogo do Número Secreto</h3>
+                    <p>/...Jogo de Adivinhação interativo, onde o usuário tenta descobrir um número gerado
+                        aleatoriamente. A cada tentativa, são fornecidas dicas para auxiliar na resposta. Um novo número
+                        é gerado a cada rodada, tornando o jogo dinâmico. Possui design moderno e responsivo.</p>
+                </div>
+            </li>
+
+        </ul>
+
+
+    </section>
+
+    <section class="section-contact" id="contact">
+        <div class="box-text-contact">
+            <h2 class="text-title">Contato</h2>
+            <p>//...Entre em contato e vamos transformar sua ideia em realidade!!</p>
+        </div>
+
+        <ul class="container-contact">
+            <li class="box-contact">
+                <a href="https://www.linkedin.com/in/mariana-azevedo-soares/" target="_blank" class="link-contact">
+                    <img src="assets/icone-linkedin.png" alt="Logo-Linkedln" class="icon-contact">
+                    <h3>Linkedln</h3>
+                </a>
+
+            </li>
+
+            <li class="box-contact">
+                <a href="https://github.com/MarianaASoares" target="_blank" class="link-contact">
+                    <img src="assets/icone-github.png" alt="Logo-GitHub" class="icon-contact">
+                    <h3>GitHub</h3>
+                </a>
+            </li>
+
+
+
+            <li class="box-contact">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=marianaazsoares@gmail.com" target="_blank"
+                    class="link-contact">
+                    <img src="assets/icone-gmail.png" alt="Logo-Gmail" class="icon-contact">
+                    <h3>E-mail</h3>
+                </a>
+            </li>
+
+        </ul>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
