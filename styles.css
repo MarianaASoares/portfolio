@@ -332,6 +332,8 @@ h2 {
         font-size: 2rem;
     }
 
+    
+
     .section-start {
         flex-direction: column-reverse;
         gap: 5rem;
@@ -433,6 +435,8 @@ h2 {
 }
 
 @media screen and (max-width:650px) {
+
+
     .container-menu {
         padding: 10px 0px 2px 20px;
         min-height: 20px;
@@ -441,6 +445,10 @@ h2 {
         flex-direction: column;
         gap: 0.4rem;
         font-size: 1rem;
+    }
+
+     .menu:hover {
+    font-size: 1.1rem;
     }
 
     .title-main {
